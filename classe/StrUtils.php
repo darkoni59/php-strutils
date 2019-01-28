@@ -31,7 +31,7 @@ class StrUtils
     }
     public function capitalize()
     {
-        return strtoupper($this->str);
+        return "<span>".$this->str."</span>";
     }
     public function uglify(){
         return
